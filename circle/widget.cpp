@@ -4,7 +4,7 @@
 Widget::Widget(QWidget *parent)
      : QWidget(parent)
 {
-    resize(400,500);
+    resize(400,400);
 }
 /* Painter event to paint circle in blue colour */
 void Widget::paintEvent(QPaintEvent *event)
